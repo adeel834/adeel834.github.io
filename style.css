@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.card{
+    cursor: pointer;
+   transition:0.5s all ease;
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px !important;
+}
+.nav-item.dropdown .dropdown-menu{
+    opacity: 0!important;
+     display: none !important;
+}
+.nav-item.dropdown:hover .dropdown-menu{
+    opacity: 1 !important;
+    display: block !important;
+}
+.card:hover i{
+color: white !important;
+transform: scale3d(30px);
+
+}
+.card:hover{
+background-color:rgb(74, 74, 151) !important;
+transform: scale(0.9);
+color: white;
+
+background: linear-gradient(red,green,blue,gray);
+}
+.hero{
+    background-image: url("download.jpg");
+    background-size: cover;
+    background-position: center right;
+    width: 100px;
+    height: auto;
+}
+.reww{
+    background-color:rgb(76, 76, 241);
+}
+.icon{
+    top:40%  !important;
+}
+.video:hover i{
+    color:red !important;
+    cursor: pointer !important;
+}
+video {
+    cursor: pointer;
+}
+.video:focus i{
+    color: blue;
+}
+.cardss{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px !important;
+    transition: 0.3s all ease-in;
+}
+.cardss:hover{
+    color: white;
+    transform: scale(1.02);
+    cursor: pointer;
+    background: linear-gradient(blue,aqua,green,gray,red) !important;
+}
+.cards i{
+    text-indent: 10px;
+    transition: 0.4s all ease;
+}
+.cards i:hover{
+    transform: scale(1.4);
+    text-indent: 29px;
+}
+.images img{
+    transition: 0.3s all ease-in;
+}
+.images img:hover{
+    translate:0px -30px 0px;
+    border-radius: 22px;
+}
+.ico i{
+    width: 30px;
+    font-size: 25px; 
+    transition: 0.4s all ease;
+   cursor: pointer;
+}
+.ico i:hover{
+    transform: scale(1.4);
+    color: blue;
+}
+.listt a{
+   cursor: pointer;
+}
+.listt a:hover{
+    color: blue !important;
+}
