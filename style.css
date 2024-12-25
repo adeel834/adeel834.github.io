@@ -60,7 +60,7 @@ video {
 }
 .cardsss:hover{
     color:black;
-    transform: scale(1.1);
+    transform: scale(1.01);
     cursor: pointer;
     background-color:rgba(0, 0, 255, 0.366) !important;
 }
