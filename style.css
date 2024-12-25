@@ -8,6 +8,10 @@
    transition:0.5s all ease;
    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px !important;
 }
+.navbar{
+    background-color: rgba(0, 0, 0, 0.826);
+}
+
 .nav-item.dropdown .dropdown-menu{
     opacity: 0!important;
      display: none !important;
@@ -25,8 +29,7 @@ transform: scale3d(30px);
 background-color:rgb(74, 74, 151) !important;
 transform: scale(0.9);
 color: white;
-
-background: linear-gradient(red,green,blue,gray);
+background-color: rgba(0, 0, 255, 0.366);
 }
 .hero{
     background-image: url("download.jpg");
@@ -57,9 +60,9 @@ video {
 }
 .cardsss:hover{
     color:black;
-    transform: scale(1.02);
+    transform: scale(1.1);
     cursor: pointer;
-    background: linear-gradient(blue,aqua,green,gray,red) !important;
+    background-color:rgba(0, 0, 255, 0.366) !important;
 }
 .cardss{
     box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 20px -7px !important;
