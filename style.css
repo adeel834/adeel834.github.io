@@ -51,15 +51,33 @@ video {
 .video:focus i{
     color: blue;
 }
-.cardss{
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px !important;
+.cardsss{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 20px -7px !important;
     transition: 0.3s all ease-in;
 }
-.cardss:hover{
-    color: white;
+.cardsss:hover{
+    color:black;
     transform: scale(1.02);
     cursor: pointer;
     background: linear-gradient(blue,aqua,green,gray,red) !important;
+}
+.cardss{
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 30px 20px -7px !important;
+    transition: 0.3s all ease-in;
+    cursor: pointer;
+}
+.cardss:hover{
+    color:black;
+    transform: scale(1.02);
+    cursor: pointer;
+}
+.cardss i{
+    text-indent: 10px;
+    transition: 0.4s all ease;
+}
+.cardss i:hover{
+    transform: scale(1.4);
+    text-indent: 29px;
 }
 .cards i{
     text-indent: 10px;
